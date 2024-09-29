@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+/* HEADER */
+.header{
+    min-width: max-content;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap:10px;
+    color:white;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+}
+/* FIRST SECTION */
+.one{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    height: 300px;
+    padding:15px;
+    color: white;
+}
+.hero-title{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.placeholder{
+    background-color: #e5e7eb;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    min-width: 50%;
+}
+.button{
+    margin-top: 15px;
+    display: flex;
+    background-color: blue;
+    height: 20px;
+    width: 50px;
+    color: White;
+    padding: 5px 10px;
+    border-radius: 30%;
+}
+.two{
+    background-color: white;
+    height: 100px;
+}
+.three{
+    background-color: #e5e7eb;
+    height: 100px;
+}
+.four{
+    background-color: white;
+    height:100px;
+}
+
