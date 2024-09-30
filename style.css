@@ -10,6 +10,11 @@ a:link{
     color: white;
     font-size: 20px;
 }
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
 .main{
     display: flex;
     flex-direction: column;
@@ -39,8 +44,9 @@ a:link{
 }
 /* FIRST SECTION */
 .one{
-    padding-top: 40px;
+    /* padding-top: 40px; */
     display: flex;
+    align-items: center;
     justify-content: space-around;
     background-color: #1f2937;
     height: 400px; 
@@ -65,7 +71,10 @@ a:link{
     height: 200px;
 }
 .button{
-    margin-top: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
     display: flex;
     background-color: #3882f6;
     height: 20px;
@@ -130,6 +139,37 @@ a:link{
 }
 .four{
     background-color: white;
-    height:100px;
 }
-
+.call{
+    margin: 80px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-radius: 15px;
+    color: white;
+}
+.call-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.btn2{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
