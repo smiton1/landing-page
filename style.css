@@ -19,28 +19,35 @@ a:link{
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 40px;
     gap:10px;
     color:white;
     align-items: center;
+
 }
 .links{
     display: flex;
     gap: 15px;
     list-style-type: none;
+    padding-right: 78px;
 }
 .logo{
+    padding-left: 78px;
     font-size: 24px;
     font-weight: 900;
 }
 /* FIRST SECTION */
 .one{
+    padding-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1f2937;
-    height: 300px;
-    padding:15px;
+    height: 400px; 
     color: white;
+}
+.hero{
+    width: 400px;
+    height: auto;
 }
 .hero-title{
     font-size: 48px;
@@ -53,22 +60,51 @@ a:link{
     justify-content: center;
     text-align: center;
     color: black;
-    min-width: 50%;
+    width: 400px;
+    height: 200px;
 }
 .button{
     margin-top: 15px;
     display: flex;
-    background-color: blue;
+    background-color: #3882f6;
     height: 20px;
     width: 50px;
     color: White;
-    padding: 5px 10px;
-    border-radius: 30%;
+    padding: 10px 30px;
+    border-radius: 15px;
 }
+/* Second section */
 .two{
     background-color: white;
-    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
 }
+.square{
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+
+}
+.squares{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.subheader{
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+
 .three{
     background-color: #e5e7eb;
     height: 100px;
